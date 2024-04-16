@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Projeto_ContaCorrente.ConsoleApp
+﻿namespace ContaCorrente.ConsoleApp
 {
-    internal class PessoaFisica
+    public class PessoaFisica
     {
+        public string cpf;
+        public string nome;
+        public string sobrenome;
     }
+
 }
